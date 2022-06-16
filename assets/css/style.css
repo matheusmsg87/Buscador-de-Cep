@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Kranky&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allan&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    background: url(/assets/img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    justify-content: start;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 700px;
+    height: 417px;
+    border-radius: 24px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: rgba(0, 0, 0, 0.75)
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    color: #393939;
+    margin-top: 40px;
+    font-family: 'Kranky', cursive;
+    margin-bottom: 40px;
+}
+
+.input{
+    display: flex;
+    width: 350px;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 1.6em;
+}
+
+.input input{
+    width: 200px;
+    height: 45px;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Advent Pro', sans-serif;
+    color: #000;
+    font-size: 1.3em;
+}
+
+button{
+    background-color: #D1C7C7;
+    width: 282px;
+    height: 58px;
+    cursor: pointer;
+    border: transparent;
+    font-family: 'Allan', cursive;
+    font-size: 1.6em;
+    border-radius: 12px;
+}
+
+.borda{
+    width: 600px;
+    border-top: 2px solid #fff;
+}
+
+.resultado{
+    color: #fff;
+    width: 450px;
+    text-align: start;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.6em;
+}
