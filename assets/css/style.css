@@ -95,3 +95,43 @@ button{
     font-family: 'Quicksand', sans-serif;
     font-size: 1.6em;
 }
+
+@media (max-width:768px) {
+    .container{
+        width: 370px;
+        height: 400px
+    }
+
+    body{
+        background-position: 50%;
+    }
+    .titulo{
+        font-family: 'Kranky', cursive;
+        margin-bottom: 30px;
+    }
+    .resultado{
+        width: 450px;
+        font-size: 1.0em;
+        text-align: center;
+    }
+    .borda{
+        width: 200px;
+        border-top: 2px solid #fff;
+    }
+    button{
+        width: 220px;
+        height: 45px;
+        font-size: 1.2em;
+    }
+    .input{
+        width: 300px;
+        height: 80px;
+        color: #fff;
+        font-size: 1.4em;
+    }
+    .input input{
+        width: 150px;
+        height: 45px;
+        font-size: 1.3em;
+    }
+}
